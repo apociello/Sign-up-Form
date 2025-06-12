@@ -1,3 +1,50 @@
-body {
-    background-color:deepskyblue;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.sub1 {
+    background-image: url(images/set-up.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 57%
+}
+
+.sub2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.description {
+    height: 30%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    padding: 1em;
+    background-color: rgb(243, 242, 242);
+}
+
+.form {
+    padding: 1em;
+    flex: 1;
+}
+
+.button {
+    background-color: rgb(243, 242, 242);
+    flex: 1;
+    padding: 1em;
 }
