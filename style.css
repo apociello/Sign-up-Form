@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "Nors";
+    src: url('fonts/Norse-Bold.woff2') format(woff2);
+    src: url('fonts/Norse-Bold.woff') format(woff);
+    font-weight: bold;
+    font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -19,7 +27,14 @@ p {
     background-image: url(images/set-up.jpg);
     background-size: cover;
     background-position: center;
-    width: 57%
+    width: 57%;
+}
+
+.sub1 p:first-of-type {
+    font-size: 5rem;
+    font-family: Nors, sans-serif;
+    color: white;
+    background-color: rgba(0,0,0, 0.5)
 }
 
 .sub2 {
@@ -47,4 +62,9 @@ p {
     background-color: rgb(243, 242, 242);
     flex: 1;
     padding: 1em;
+}
+
+img {
+    height: 5rem;
+    vertical-align: middle;
 }
