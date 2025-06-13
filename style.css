@@ -16,25 +16,37 @@ p {
     font-size: 1.1rem;
 }
 
-
+a {
+    color: white;
+}
 .container {
     display: flex;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
 }
 
 .sub1 {
     background-image: url(images/set-up.jpg);
     background-size: cover;
     background-position: center;
-    width: 57%;
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sub1 p {
+    text-align: center;
+    color: white;
+    margin: 5rem 0 1rem 0;
 }
 
 .sub1 p:first-of-type {
     font-size: 5rem;
     font-family: Nors, sans-serif;
-    color: white;
-    background-color: rgba(0,0,0, 0.5)
+    background-color: rgba(0,0,0, 0.5);
+    margin: 5rem 6rem;
+    border-radius: 5px;
 }
 
 .sub2 {
