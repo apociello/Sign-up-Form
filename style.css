@@ -15,7 +15,6 @@
   src: url('fonts/saira-v21-latin-100.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
-/* saira-italic - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: 'Saira-italic';
@@ -79,13 +78,15 @@ a {
 .description {
     flex: 1;
     text-align: center;
-    display: flex;
-    align-items: center;
     font-size: 20rem;
     padding: 2rem 4rem;
     background-color: rgb(243, 242, 242);
     font-family: 'Saira-italic', sans-serif;
     font-style: italic;
+}
+
+.description > p:first-child {
+    margin-bottom: 1rem ;
 }
 
 .form-container {
