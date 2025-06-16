@@ -23,7 +23,6 @@
 
 .description p {
     font-size: 1.5rem;
-    font-weight: 900;
 }
 
 a {
@@ -107,13 +106,16 @@ a {
 
 input {
     font-size: 1rem;
+    border: 1.5px solid #E5E7EB;
+    border-radius: 3px;
+    padding: 0.2rem;
 }
 
 
 .button-div {
     background-color: rgb(243, 242, 242);
     flex: 1;
-    padding: 3rem 4rem;
+    padding: 3rem 4rem 1rem;
     font-size: 1.2rem;
 }
 
@@ -125,7 +127,6 @@ button {
     border: none;
     border-radius: 5px;
     margin-bottom: 1rem;
-    
 }
 .button-div a {
     color: darkolivegreen;
@@ -135,4 +136,13 @@ button {
 img {
     height: 7rem;
     vertical-align: middle;
+}
+
+input:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+}
+input:focus:invalid {
+    border-color: red;
 }
