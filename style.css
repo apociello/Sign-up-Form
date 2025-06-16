@@ -154,6 +154,12 @@ button {
     margin-bottom: 1rem;
 }
 
+button:hover {
+    background-color: #4e5e3f; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
+    transform: translateY(-1px);
+}
+
 img {
     height: 7rem;
     vertical-align: middle;
