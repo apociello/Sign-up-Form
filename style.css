@@ -4,7 +4,7 @@
   font-family: 'Audiowide';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/audiowide-v21-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('fonts/audiowide-v21-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 @font-face {
@@ -20,7 +20,7 @@
   font-family: 'Saira-italic';
   font-style: italic;
   font-weight: 400;
-  src: url('../fonts/saira-v21-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('fonts/saira-v21-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 * {
